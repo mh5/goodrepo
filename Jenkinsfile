@@ -8,7 +8,7 @@ pipeline {
     stage('Build') {
       steps {
         echo "lol ${params.Greeting}"
-        sh false
+        sh 'false'
       }
     }
   }
